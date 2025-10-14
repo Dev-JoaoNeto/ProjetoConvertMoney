@@ -27,7 +27,7 @@ main {
     width: 450px;
     background-color: #e4d9d9f5;
     border-radius: 30px;
-    margin:auto;
+    margin: auto;
     margin-top: 8%;
     padding: 44px 24px 23px;
 }
@@ -38,7 +38,8 @@ label {
     font-weight: 400;
 }
 
-select, input {
+select,
+input {
     display: block;
     margin: 8px 0;
     padding: 8px 16px;
@@ -61,7 +62,7 @@ button {
     color: white;
     cursor: pointer;
     font-size: 18px;
-    font-weight: 700; 
+    font-weight: 700;
 }
 
 button:active {
@@ -70,48 +71,72 @@ button:active {
 
 section {
     margin-top: 16px;
-    text-align: center; 
+    text-align: center;
     border-radius: 20px;
     border: 1px solid #2600ff;
     padding: 16px;
     gap: 4px;
 }
 
-.arrow{
+.arrow {
     margin: 15px 0;
 }
 
-.currency-name-primary, .currency-name {
+.currency-name-primary,
+.currency-name {
     font-size: 25px;
     font-weight: 500;
     color: black;
 }
 
-.currency-value, .currency-value-to-convert {
+.currency-value,
+.currency-value-to-convert {
     font-size: 20px;
     font-weight: 400;
     color: black;
 }
 
 @media screen and (max-width: 500px) {
-    main {
-        width: 85%;
-        margin-top: 20%;
-    }
-    
-    .video-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: -1;
-}
 
-#video-money {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+    main {
+        width: 70%;
+        margin-top: 10%;
+    }
+
+    main {
+        width: 250px;
+        background-color: #e4d9d9f5;
+        border-radius: 30px;
+        margin: auto;
+        margin-top: 8%;
+        padding: 44px 24px 23px;
+    }
+
+    section {
+        margin-top: 6px;
+        text-align: center;
+        border-radius: 20px;
+        border: 1px solid #2600ff;
+        padding: 3px;
+        gap: 1px;
+    }
+
+    .currency-name-primary,
+    .currency-name {
+        font-size: 12px;
+        font-weight: 500;
+        color: black;
+    }
+
+    .currency-value,
+    .currency-value-to-convert {
+        font-size: 12px;
+        font-weight: 400;
+        color: black;
+    }
+
+    .currency-img,
+    .currency-img-primary {
+        width: 40px
+    }
 }
