@@ -1,0 +1,102 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#video-money {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main {
+    width: 450px;
+    background-color: #e4d9d9f5;
+    border-radius: 30px;
+    margin:auto;
+    margin-top: 8%;
+    padding: 44px 24px 23px;
+}
+
+label {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+select, input {
+    display: block;
+    margin: 8px 0;
+    padding: 8px 16px;
+    border: 2px solid #bbbbbb;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    background: #ffffff;
+    color: #000;
+    cursor: pointer;
+}
+
+button {
+    background: rgba(37, 0, 248, 0.781);
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    height: 48px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700; 
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+section {
+    margin-top: 16px;
+    text-align: center; 
+    border-radius: 20px;
+    border: 1px solid #2600ff;
+    padding: 16px;
+    gap: 4px;
+}
+
+.arrow{
+    margin: 15px 0;
+}
+
+.currency-name-primary, .currency-name {
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+
+.currency-value, .currency-value-to-convert {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        width: 85%;
+        margin-top: 20%;
+    }
+    
+}
