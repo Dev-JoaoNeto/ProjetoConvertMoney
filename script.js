@@ -12,7 +12,7 @@ async function convertValues() {
 
 
     //Valores das moedas
-    const dolarToday = data.USDBRL.high
+    const dolarToday = data.USDBRL.high 
     const euroToday = data.EURBRL.high
     const libraToday = data.GBPBRL.high
     const realToday = data.BRLBRL ? data.BRLBRL.high : 1
