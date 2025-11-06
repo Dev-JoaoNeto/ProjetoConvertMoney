@@ -28,7 +28,7 @@ main {
     background-color: #e4d9d9f5;
     border-radius: 30px;
     margin: auto;
-    margin-top: 8%;
+    margin-top: 4%;
     padding: 44px 24px 23px;
 }
 
@@ -98,17 +98,13 @@ section {
 
 @media screen and (max-width: 500px) {
 
-    main {
-        width: 70%;
-        margin-top: 10%;
-    }
 
     main {
         width: 250px;
         background-color: #e4d9d9f5;
         border-radius: 30px;
         margin: auto;
-        margin-top: 8%;
+        margin-top: 5%;
         padding: 44px 24px 23px;
     }
 
@@ -140,3 +136,4 @@ section {
         width: 40px
     }
 }
+
